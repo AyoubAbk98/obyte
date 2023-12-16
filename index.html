@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+        <script src="./main.js" defer></script>
+        <title>Obyte</title>
+    </head>
+    <body>
+        <!-- NAVIGATION BAR /////////////////// -->
+        <nav class="container">
+            <ul>
+                <li><h4><a href="#services">Services</a></h4></li>
+                <li><h4><a href="#projects">Experience</a></h4></li>
+                <li><h4><a href="#team">Team</a></h4></li>
+                <li><h4><a href="#contact">Contact</a></h4></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <section class="hero timeline-item tl-item-start">
+                <img src="./assets/images/obyte_logo.svg" alt="">
+                <h1>Empowering Your Business with Cutting-Edge Technology Solutions</h1>
+                <h2>Machine Learning, Web Development, Design.</h2>
+            </section>
+        </div>
+
+        <!-- SERVICES SECTION ///////////////// -->
+        <div class="container">
+            <section class="services timeline-item tl-item-middle">
+                <h1 id="services">Services</h1>
+                <button class="gradient-btn machine-learning-btn" id="machine-learning-btn">
+                    <h3 class="button-label">Machine Learning</h3>
+                    <img src="./assets/icons/arrow.svg" alt="">
+                </button>
+                <button class="gradient-btn web-development-btn" id="web-development-btn">
+                    <h3 class="button-label">Web Development</h3>
+                    <img src="./assets/icons/arrow.svg" alt="">
+                </button>
+                <button class="gradient-btn design-btn" id="design-btn">
+                    <h3 class="button-label">Design</h3>
+                    <img src="./assets/icons/arrow.svg" alt="">
+                </button>
+            </section>
+        </div>
+
+        <!-- PROJECTS SECTION ///////////////// -->
+        <div class="container">
+            <section class="projects timeline-item tl-item-middle">
+                <h1 id="projects">Recent Projects</h1>
+                <button class="gradient-btn" id="recent-project-0">
+                    <h3 class="button-label">3D Pothole Detection</h3>
+                    <img src="./assets/icons/arrow.svg" alt="">
+                    <h4 class="topics">Machine Learning, Augmented Reality, 3D Reconstruction</h4>
+                    <p>This recent project involved the development of a novel pothole detection system that uses advanced computer vision techniques to detect and classify potholes from road images captured by a camera. The system is based on the state-of-the-art object detection algorithm, YOLOv7, which is capable of detecting and localizing potholes in real-time.</p>
+                </button>
+                <button class="gradient-btn" id="recent-project-1">
+                    <h3 class="button-label">Object Detection and Tracking</h3>
+                    <img src="./assets/icons/arrow.svg" alt="">
+                    <h4 class="topics">Machine Learning, Computer Vision</h4>
+                    <p>This project involved the development of an advanced object detection system that uses computer vision techniques to detect and classify various objects in real-time. The system is capable of detecting and identifying players, vehicles, persons, and car damages from video streams captured by cameras.</p>
+                </button>
+            </section>
+        </div>
+
+        <!-- TEAM SECTION ///////////////////// -->
+        <div class="container">
+            <section class="team timeline-item tl-item-middle">
+                <h1 id="team">The Team</h1>
+                <div class="team-grid-container">
+                    <div class="team-grid-item">
+                        <div class="team-grid-item-image alec"></div>
+                        <div>
+                            <h3>Alec McManon</h3>
+                            <h4>CEO, Data Science, Machine Learning</h4>
+                            <p>Alec is a data scientist with over 5 years of experience in machine learning and data analysis. He holds a PhD in AI applications in self-driving vehicles.</p>
+                            <div class="team-grid-item-social-contacts">
+                                <a href="#"><img src="./assets/icons/email.svg" alt="Email"></a>
+                                <a href="#"><img src="./assets/icons/github.svg" alt="Github"></a>
+                                <a href="#"><img src="./assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-grid-item">
+                        <div class="team-grid-item-image thomas"></div>
+                        <div>
+                            <h3>Thomas Silva</h3>
+                            <h4>Data Science, Web Development</h4>
+                            <p>Thomas is a web developer with over 7 years of experience in front-end and back-end development. He holds a Masters in Computer Science, and also a trading analysis expert.</p>
+                            <div class="team-grid-item-social-contacts">
+                                <a href="#"><img src="./assets/icons/email.svg" alt="Email"></a>
+                                <a href="#"><img src="./assets/icons/github.svg" alt="Github"></a>
+                                <a href="#"><img src="./assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-grid-item">
+                        <div class="team-grid-item-image james"></div>
+                        <div>
+                            <h3>James Harrison</h3>
+                            <h4>Web Development, Design</h4>
+                            <p>James is a data scientist with over 5 years of experience in data analysis and machine learning in addition to a wide experience in web development and design.</p>
+                            <div class="team-grid-item-social-contacts">
+                                <a href="#"><img src="./assets/icons/email.svg" alt="Email"></a>
+                                <a href="#"><img src="./assets/icons/github.svg" alt="Github"></a>
+                                <a href="#"><img src="./assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT SECTION ////////////////// -->
+        <div class="container">
+            <section class="contact timeline-item tl-item-end">
+                <h1 id="contact">Contact</h1>
+                <form novalidate>
+                    <div class="input-container name-input-container">
+                        <label for="name-input">Name</label>
+                        <input type="text" id="name-input">
+                    </div>
+                    <div class="input-container email-input-container">
+                        <label for="email-input">Email</label>
+                        <input type="email" id="email-input">
+                    </div>
+                    <div class="input-container subject-input-container">
+                        <label for="subject-input">Subject</label>
+                        <input type="text" id="subject-input">
+                    </div>
+                    <div class="input-container body-input-container">
+                        <label for="body-input">Body</label>
+                        <textarea id="body-input" rows="8"></textarea>
+                    </div>
+                    <button>Send</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- FOOTER /////////////////////////// -->
+        <footer>
+            <div class="container">
+                <div>
+                    <a href="#"><img src="./assets/icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assets/icons/github_white.svg" alt=""></a>
+                </div>
+                <p>&copy; 2023 Obyte All Rights Reserved. </p>
+            </div>
+        </footer>
+
+        <!-- INFO MODAL /////////////////////// -->
+        <div class="info-modal-container" id="info-modal-container">
+            <div class="container">
+                <div class="info-modal-content" id="info-modal-content">
+                    <button id="info-modal-back-btn"><img src="./assets/icons/arrow.svg" alt=""></button>
+                    <div>
+                        <h3 id="info-modal-content-header"></h3>
+                        <h4 id="info-modal-content-subheader"></h4>
+                        <div id="info-modal-content-body" class="info-modal-content-body"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
